@@ -19,4 +19,5 @@ class AppTheme {
   static Color secondary = const Color(0xfff6f8ff);
   static Color ctgryBoxColor = const Color(0xFF605CF4);
   static Color iconColor = const Color(0xFF7182f2);
+  static Color grey = Colors.grey;
 }
