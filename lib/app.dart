@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:game_store_app/configs/app_theme.dart';
-import 'package:game_store_app/configs/constants/app_words.dart';
+import 'package:game_store_app/configs/constants/local_strings.dart';
 import 'package:game_store_app/screens/home/home_screen.dart';
 
 class App extends StatelessWidget {
@@ -14,7 +14,7 @@ class App extends StatelessWidget {
     );
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: AppWords.appName,
+      title: LocalStrings.appName,
       theme: AppTheme.theme,
       darkTheme: AppTheme.darkTheme,
       home: const HomeScreen(),
